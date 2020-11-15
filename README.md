@@ -1,15 +1,16 @@
-# Important instructions:     
-<hr>
+# Important instructions:   
+
 ## Upload the _`student.sql`_ file  to phpMyAdmin, get it from Database folder   
-### OR   
-## Create database named _`student`_  and create table namded _`students`_
-<br>
+
+### OR    
+
+## Create database named _`student`_  and create table namded _`students`_    
+
 <br>
 **ENJOY the rest facilities!!!!** 
 
 **You Can - Insert New Student, Search Existing Student, Search Students By Place, Delete Any Student, Update Student Information**
 
-<br>
 <br>
 *NB: When Editting a student,*  
 
