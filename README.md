@@ -14,7 +14,6 @@
 
 <br>   
 
-*NB: When Editting a student,*  
-
-    1. please click checkbox first and then click edit
-    2. page will refresh and click on edit again
+*NB: When Editting a student,*    
+1. please click checkbox first and then click edit    
+2. page will refresh and click on edit again   
