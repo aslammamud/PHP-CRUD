@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Create DB and Table</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+	<body>
+		<div class="header"><br><h1>PHP CRUD OPERATION - Create Database and Table</h1><br></div>
+
+		<div class="create">
+			<h2>Create any new database</h2>
+			<p>(Skip if you've already uploaded the sql file to database)</p>
+			<p>(To run this project database name should be `student` and create it only once)</p>
+			<form action="createdatabase.php" method="POST">
+				<table>
+					<tr>
+						<td>Please enter database name you want to create: </td>
+						<td><input type="text" name="databasename" required></td>
+						<td><input type="submit" value="Create"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+
+		<div class="create">
+			<h2>Create new table</h2>
+			<p>(Skip if you've already uploaded the sql file to database)</p>
+			<p>(To run this project table name should be `students` and create it only once)</p
+			<form action="createtable.php" method="POST">
+			<table>
+				<tr>
+					<td>Please enter table name you want to create: </td>
+					<td><input type="text" name="tablename" required></td>
+					<td><input type="submit" value="Create"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
